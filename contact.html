@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Website</title>
+    <script
+      src="https://kit.fontawesome.com/4b4f9eab19.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/slick/slick.css" />
+    <link rel="stylesheet" href="assets/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body id="contact-page">
+    <!-- Page preloader -->
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
+
+    <nav id="nav1" class="navbar">
+      <div class="container-fluid">
+        <div class="mr-auto">
+          Questions? &nbsp;<a href="tel:123-123-1234"
+            ><i class="fas fa-phone-alt"></i> 123-123-1234</a
+          >
+        </div>
+        <div class="ml-auto">
+          <a href="mailto:mail@example.com"
+            ><i class="fas fa-envelope"></i> mail@example.com</a
+          >
+          &nbsp;&nbsp; <i class="fa fa-clock-o"></i> Mon-Fri: 09:00 - 17:00
+          <span class="social-top">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <nav id="nav2" class="navbar navbar-expand-lg navbar-dark px-2 nav2-home">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img id="logo" src="images/dummy-logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="navColor();"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#section4">Benefits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="programs.html">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="section1">
+      <div class="hero">
+        <span></span>
+        <h1>CONTACT US</h1>
+      </div>
+    </section>
+
+    <section id="section2">
+      <div class="container">
+        <div class="row aos-fix">
+          <div class="col-md-4 text-center" data-aos="fade-right">
+            <i class="fas fa-map-marker-alt"></i>
+            <h4 class="text-center">
+              Address
+            </h4>
+            <p>
+              132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA
+            </p>
+          </div>
+          <div class="col-md-4 text-center" data-aos="fade-up">
+            <i class="fas fa-envelope-open-text"></i>
+            <h4 class="text-center">
+              Email address
+            </h4>
+            <p>
+              mail@example.com<br /><small>Monday to Friday 9am - 7pm</small>
+            </p>
+          </div>
+          <div class="col-md-4 text-center" data-aos="fade-left">
+            <i class="fas fa-mobile-alt"></i>
+            <h4 class="text-center">
+              Contacts info
+            </h4>
+            <p>
+              (00) 123 456 789 &emsp;(00) 123 456 789<br /><small
+                >Monday to Friday 9am - 7pm</small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section3" class="custom-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xl-5 column1">
+            <iframe
+              data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31433.028983992106!2d76.32033074942058!3d10.006232905086717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c8b3dae8dd5%3A0xb8cb52215d68c26!2sInfoparks%20Kerala%20kakkanad!5e0!3m2!1sen!2sin!4v1578229603125!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border:0;"
+              allowfullscreen=""
+              class="lozad"
+            ></iframe>
+          </div>
+          <div class="col-md-6 ml-auto column2">
+            <div class="row mb-3">
+              <div class="col">
+                <h4>Please fill the form below to contact us</h4>
+              </div>
+            </div>
+
+            <form action="">
+              <div class="row">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    name="firstname"
+                    id="fname"
+                    placeholder="Your Name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    name="lastname"
+                    id="lname"
+                    placeholder="Last Name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="tel"
+                    name="telepone"
+                    id="telephone"
+                    placeholder="Your phone"
+                    class="form-control"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <select
+                    name="course"
+                    id="course"
+                    required
+                    class="form-control"
+                  >
+                    <option value="" selected>Choose course</option>
+                    <option value="course1">Course 1</option>
+                    <option value="course2">Course 2</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <select
+                    name="teacher"
+                    id="teacher"
+                    required
+                    class="form-control"
+                  >
+                    <option value="" disabled selected>Select teacher</option>
+                    <option value="teacher1">Teacher 1</option>
+                    <option value="teacher2">Teacher 2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="5"
+                    placeholder="Your message"
+                    class="form-control"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="submit"
+                    value="Submit"
+                    class="button-secondary"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+     -->
+    <footer class="custom-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-12 col-md-6 col-sm-12">
+            <a href="#"
+              ><img id="logo-footer" src="images/dummy-logo.png" alt=""
+            /></a>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consectetur, eum accusamus debitis temporibus in ratione ipsa
+              praesentium iusto tempore. Minima, culpa deleniti exercitationem
+              ut eveniet quisquam illum assumenda officiis veniam?
+            </p>
+          </div>
+          <div id="quick-links" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <h5>Quick Links</h5>
+            <div class="wrapper d-flex">
+              <ul class="no-bullets">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Program</a></li>
+                <li><a href="Benefits.html">Benifits</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="">Upcoming Events</a></li>
+              </ul>
+              <ul class="no-bullets">
+                <li><a href="">Students</a></li>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+                <li>
+                  <a href="privacy-and-policy.html">Privacy And Policy</a>
+                </li>
+                <li><a href="refund.html">Refund Policy</a></li>
+                <li><a href="">Policy</a></li>
+                <li>
+                  <a href="Terms-and-conditions.html">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <h5>Institute Hours</h5>
+            <ul class="no-bullets">
+              <li>Monday: 09:00 - 17:00</li>
+              <li>Tuseday: 09:00 - 17:00</li>
+              <li>Wednesday: 09:00 - 17:00</li>
+              <li>Thursday: 09:00 - 17:00</li>
+              <li>Friday: 09:00 - 17:00</li>
+              <li>Saturday, Sunday: No Admission/Enquiry</li>
+            </ul>
+          </div>
+          <div id="contact-footer" class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <ul class="no-bullets">
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Address:</h6>
+                  <a href="#"
+                    >132 Jefferson Avenue, Suite 22, Redwood City, CA 94872,
+                    USA</a
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Phone:</h6>
+                  <a href="tel:(00) 123 456 789">(00) 123 456 789</a>
+                </div>
+              </li>
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Email:</h6>
+                  <a href="mailto:name@gmail.com">name@gmail.com</a>
+                </div>
+              </li>
+              <li class="social-footer">
+                <h6>FOLLOW US</h6>
+                <span class="social-bottom">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Page preloader -->
+    <script>
+      $(window).on("load", function() {
+        $(".spinner").fadeOut();
+      });
+    </script>
+
+    <script src="js/animate-header.js" async></script>
+
+    <!-- Lazy load -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"
+    ></script>
+    <script>
+      const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+      observer.observe();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Website</title>
+    <script
+      src="https://kit.fontawesome.com/4b4f9eab19.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,800|Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/slick/slick.css" />
+    <link rel="stylesheet" href="assets/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body id="programs-page">
+    <!-- Page preloader -->
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
+
+    <nav id="nav1" class="navbar">
+      <div class="container-fluid">
+        <div class="mr-auto">
+          Questions? &nbsp;<a href="tel:123-123-1234"
+            ><i class="fas fa-phone-alt"></i> 123-123-1234</a
+          >
+        </div>
+        <div class="ml-auto">
+          <a href="mailto:mail@example.com"
+            ><i class="fas fa-envelope"></i> mail@example.com</a
+          >
+          &nbsp;&nbsp; <i class="fa fa-clock-o"></i> Mon-Fri: 09:00 - 17:00
+          <span class="social-top">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <nav id="nav2" class="navbar navbar-expand-lg navbar-dark px-2 nav2-inner">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img id="logo" src="images/dummy-logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="navColor();"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#section4">Benefits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="programs.html">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="section6" class="custom-padding">
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                  <ul class="nav nav-pills nav-justified" id="myTabB" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="navtab2-content1-tab" data-toggle="pill" href="#navtab2-content1" role="pill" aria-controls="navtab-content1" aria-selected="true"><i class="fas fa-street-view"></i><span>Programs For Students</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="navtab2-content2-tab" data-toggle="pill" href="#navtab2-content2" role="pill" aria-controls="navtab-content2" aria-selected="false"><i class="fas fa-users"></i><span>Programs For Parents</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="navtab2-content3-tab" data-toggle="pill" href="#navtab2-content3" role="pill" aria-controls="navtab-content3" aria-selected="false"><i class="fas fa-assistive-listening-systems"></i><span>Programs For Counselor</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" id="navtab2-content4-tab" data-toggle="pill" href="#navtab2-content4" role="pill" aria-controls="contact" aria-selected="false"><i class="fas fa-eye"></i><span>Programs For Mentor</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navtab2-content5-tab" data-toggle="pill" href="#navtab2-content5" role="pill" aria-controls="contact" aria-selected="false"><i class="fas fa-university"></i><span>Programs For School</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="navtab2-content6-tab" data-toggle="pill" href="#navtab2-content6" role="pill" aria-controls="contact" aria-selected="false"><i class="fas fa-graduation-cap"></i>
+                            <span>Programs For College</span></a>
+                          </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="navtab2-content7-tab" data-toggle="pill" href="#navtab2-content7" role="pill" aria-controls="contact" aria-selected="false"><i class="fas fa-industry"></i><span>Programs For Institute</span></a>
+                              </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContentB">
+                      <div class="tab-pane fade show active" id="navtab2-content1" role="tabpanel" aria-labelledby="navtab2-content1-tab">
+                        <div class="text-center my-5">
+                          <h4>Programs For Students</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab1" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" id="tab1-a-tab" data-toggle="tab" href="#tab1-a" role="tab" aria-controls="tab1-a" aria-selected="true">Class 8-9</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="tab1-b-tab" data-toggle="tab" href="#tab1-b" role="tab" aria-controls="tab1-b" aria-selected="false">Class 10-12</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="tab1-c-tab" data-toggle="tab" href="#tab1-c" role="tab" aria-controls="tab1-c" aria-selected="false">Graduates/Professionals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="tab1-d-tab" data-toggle="tab" href="#tab1-d" role="tab" aria-controls="tab1-d" aria-selected="true">Psychometric
+                                  test</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" id="tab1-e-tab" data-toggle="tab" href="#tab1-e" role="tab" aria-controls="tab1-e" aria-selected="false">Career Counselling</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" id="tab1-f-tab" data-toggle="tab" href="#tab1-f" role="tab" aria-controls="tab1-f" aria-selected="false">FAQs</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" id="tab1-g-tab" data-toggle="tab" href="#tab1-g" role="tab" aria-controls="tab1-g" aria-selected="false">Study India/Study abroad</a>
+                                </li>
+                        </ul>
+                          <div class="tab-content" id="myTabContent1">
+                            <div class="tab-pane fade show active" id="tab1-a" role="tabpanel" aria-labelledby="tab1-a-tab">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-5 bgimg bgimg1">
+                                            <h2>
+                                              Career Planning
+                                            </h2>
+                                            <div class="dark-overlay"></div>
+                                        </div>
+                                      <div class="col-md-7">
+                                          <h3>Plan your Future Career</h3>
+                                          <p>Career planning is important while choosing a career because every person
+                                              will have a lot of expectation while entering a career, but the real
+                                              life experience might be different. Now- a - days no one wish to
+                                              continue the same work lifelong. Here comes the importance of career
+                                              planning. We should have a clear idea of our interests and skills, which
+                                              in turn helps in choosing the career and planning the career graph..</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab1-b" role="tabpanel" aria-labelledby="tab1-b-tab">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-5 order-md-last bgimg bgimg2">
+                                            <h2>
+                                                Competitive Examination, Courses and Colleges
+                                            </h2>
+                                            <div class="dark-overlay"></div>
+                                        </div>
+                                      <div class="col-md-7">
+                                          <h3>Scientifically Designed Psychometric Tests</h3>
+                                          <p>Psychometric assessment is a standard and scientific method designed to
+                                              measure an individual’s suitability for a role/career based on his/her
+                                              interests, aptitude, intelligence, knowledge, personality, skills,
+                                              motivation, values, and other related factors. A reliable and valid
+                                              psychometric test can evaluate an individual and provide an objective
+                                              measure of his/her characteristics and abilities. Proper standardization
+                                              of tests across languages can enhance test results. Psychometric tests
+                                              are a type of tool/instrument used in career counseling to measure
+                                              personal characteristics that influence career development and help an
+                                              individual to enhance self-awareness. Psychometric tests are the best
+                                              possible way to decode mental capabilities and behavior.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab1-c" role="tabpanel" aria-labelledby="tab1-c-tab">
+                              <div class="container">
+                                <div class="row">
+                                    <div class="col-md-5 bgimg bgimg3">
+                                        <h2>
+                                            Career Fields
+                                        </h2>
+                                        <div class="dark-overlay"></div>
+                                    </div>
+                                  <div class="col-md-7">
+                                      <h3>Comprehensive and Interactive Psychometric
+                                          Test Reports</h3>
+                                      <p>Comprehensive and Interactive Psychometric Test Reports gives you
+                                          objective measure of your suitability for a role/career based on his/her
+                                          interests, aptitude, intelligence, knowledge, personality, skills,
+                                          motivation, values, and other related factors. Psychometric Test Report
+                                          gives your best fit stream/branch/career matches.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab1-d" role="tabpanel" aria-labelledby="tab1-d-tab">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-5 order-md-last bgimg bgimg4">
+                                            <h2>
+                                                Psychometric Assessments
+                                            </h2>
+                                            <div class="dark-overlay"></div>
+                                        </div>
+                                      <div class="col-md-7">
+                                          <h3>Get Personalised Career Counselling From
+                                              Our Experts</h3>
+                                          <p>Career counseling plays a vital role in choosing stream or branch,
+                                              choosing, changing, or leaving a career. A career counselor could be a
+                                              therapist, life coach, or a volunteer who will generally be trained to
+                                              provide guidance to choose right stream, branch, and careers, discuss
+                                              career development, and administer and interpret aptitude and ability
+                                              assessments.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab1-e" role="tabpanel" aria-labelledby="tab1-e-tab">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-5 bgimg bgimg5">
+                                            <h2>
+                                                Career Counselling
+                                            </h2>
+                                            <div class="dark-overlay"></div>
+                                        </div>
+                                      <div class="col-md-7">
+                                          <h3>Get Personalised Career Guidance From
+                                              Our Experts</h3>
+                                          <p>Career guidance plays an important role in choosing stream or
+                                              branch,
+                                              choosing, changing, or leaving a career. It is the guidance given to
+                                              individuals to help them acquire the knowledge, information, skills,
+                                              and
+                                              experience necessary to identify career options, and narrow them
+                                              down to
+                                              make one career decision. Career Guidance involves continuous
+                                              monitoring
+                                              of their progress and provides suggestions to improve the
+                                              performance.
+                                              This career decision then results in their social, financial and
+                                              emotional well-being throughout.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab1-f" role="tabpanel" aria-labelledby="tab1-f-tab">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-5 order-md-last bgimg bgimg6">
+                                            <h2>
+                                                Mentoring
+                                            </h2>
+                                            <div class="dark-overlay"></div>
+                                        </div>
+                                      <div class="col-md-7">
+                                          <h3>Explore most popular career fields</h3>
+                                          <p>Career exploration provides vast information on various career
+                                                    fields..</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab1-g" role="tabpanel" aria-labelledby="tab1-g-tab">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-5 bgimg bgimg2">
+                                            <h2>
+                                                Competitive Examination, Courses and Colleges
+                                            </h2>
+                                            <div class="dark-overlay"></div>
+                                        </div>
+                                      <div class="col-md-7">
+                                          <h3>Scientifically Designed Psychometric Tests</h3>
+                                          <p>Psychometric assessment is a standard and scientific method designed to
+                                              measure an individual’s suitability for a role/career based on his/her
+                                              interests, aptitude, intelligence, knowledge, personality, skills,
+                                              motivation, values, and other related factors. A reliable and valid
+                                              psychometric test can evaluate an individual and provide an objective
+                                              measure of his/her characteristics and abilities. Proper standardization
+                                              of tests across languages can enhance test results. Psychometric tests
+                                              are a type of tool/instrument used in career counseling to measure
+                                              personal characteristics that influence career development and help an
+                                              individual to enhance self-awareness. Psychometric tests are the best
+                                              possible way to decode mental capabilities and behavior.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content2" role="tabpanel" aria-labelledby="navtab2-content2-tab">      <div class="text-center my-5">
+                          <h4>Programs For Parents</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab2" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab2-a-tab" data-toggle="tab" href="#tab2-a" role="tab" aria-controls="tab2-a" aria-selected="true">Class
+                              8-9</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab2-b-tab" data-toggle="tab" href="#tab2-b" role="tab" aria-controls="tab2-b" aria-selected="false">Class 10-12</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab2-c-tab" data-toggle="tab" href="#tab2-c" role="tab" aria-controls="tab2-c" aria-selected="false">Graduates/Professionals</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="tab2-d-tab" data-toggle="tab" href="#tab2-d" role="tab" aria-controls="tab2-d" aria-selected="true">Psychometric
+                                test</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="tab2-e-tab" data-toggle="tab" href="#tab2-e" role="tab" aria-controls="tab2-e" aria-selected="false">Career Counselling</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="tab2-f-tab" data-toggle="tab" href="#tab2-f" role="tab" aria-controls="tab2-f" aria-selected="false">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="tab2-g-tab" data-toggle="tab" href="#tab2-g" role="tab" aria-controls="tab2-g" aria-selected="false">Study India/Study abroad</a>
+                              </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent2">
+                          <div class="tab-pane fade show active" id="tab2-a" role="tabpanel" aria-labelledby="tab2-a-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg2">
+                                          <h2>
+                                              Competitive Examination, Courses and Colleges
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Scientifically Designed Psychometric Tests</h3>
+                                        <p>Psychometric assessment is a standard and scientific method designed to
+                                            measure an individual’s suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. A reliable and valid
+                                            psychometric test can evaluate an individual and provide an objective
+                                            measure of his/her characteristics and abilities. Proper standardization
+                                            of tests across languages can enhance test results. Psychometric tests
+                                            are a type of tool/instrument used in career counseling to measure
+                                            personal characteristics that influence career development and help an
+                                            individual to enhance self-awareness. Psychometric tests are the best
+                                            possible way to decode mental capabilities and behavior.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab2-b" role="tabpanel" aria-labelledby="tab2-b-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 bgimg bgimg3">
+                                          <h2>
+                                              Career Fields
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Comprehensive and Interactive Psychometric
+                                            Test Reports</h3>
+                                        <p>Comprehensive and Interactive Psychometric Test Reports gives you
+                                            objective measure of your suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. Psychometric Test Report
+                                            gives your best fit stream/branch/career matches.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab2-c" role="tabpanel" aria-labelledby="tab2-c-tab">                                <div class="container">
+                              <div class="row">
+                                  <div class="col-md-5 order-md-last bgimg bgimg4">
+                                      <h2>
+                                          Psychometric Assessments
+                                      </h2>
+                                      <div class="dark-overlay"></div>
+                                  </div>
+                                <div class="col-md-7">
+                                    <h3>Get Personalised Career Counselling From
+                                        Our Experts</h3>
+                                    <p>Career counseling plays a vital role in choosing stream or branch,
+                                        choosing, changing, or leaving a career. A career counselor could be a
+                                        therapist, life coach, or a volunteer who will generally be trained to
+                                        provide guidance to choose right stream, branch, and careers, discuss
+                                        career development, and administer and interpret aptitude and ability
+                                        assessments.</p>
+                                </div>
+                              </div>
+                            </div></div>
+                          <div class="tab-pane fade" id="tab2-d" role="tabpanel" aria-labelledby="tab2-d-tab">                                <div class="container">
+                              <div class="row">
+                                  <div class="col-md-5 bgimg bgimg5">
+                                      <h2>
+                                          Career Counselling
+                                      </h2>
+                                      <div class="dark-overlay"></div>
+                                  </div>
+                                <div class="col-md-7">
+                                    <h3>Get Personalised Career Guidance From
+                                        Our Experts</h3>
+                                    <p>Career guidance plays an important role in choosing stream or
+                                        branch,
+                                        choosing, changing, or leaving a career. It is the guidance given to
+                                        individuals to help them acquire the knowledge, information, skills,
+                                        and
+                                        experience necessary to identify career options, and narrow them
+                                        down to
+                                        make one career decision. Career Guidance involves continuous
+                                        monitoring
+                                        of their progress and provides suggestions to improve the
+                                        performance.
+                                        This career decision then results in their social, financial and
+                                        emotional well-being throughout.</p>
+                                </div>
+                              </div>
+                            </div></div>
+                          <div class="tab-pane fade" id="tab2-e" role="tabpanel" aria-labelledby="tab2-e-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg6">
+                                          <h2>
+                                              Mentoring
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Explore most popular career fields</h3>
+                                        <p>Career exploration provides vast information on various career
+                                                  fields..</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab2-f" role="tabpanel" aria-labelledby="tab2-f-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 bgimg bgimg2">
+                                          <h2>
+                                              Competitive Examination, Courses and Colleges
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Scientifically Designed Psychometric Tests</h3>
+                                        <p>Psychometric assessment is a standard and scientific method designed to
+                                            measure an individual’s suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. A reliable and valid
+                                            psychometric test can evaluate an individual and provide an objective
+                                            measure of his/her characteristics and abilities. Proper standardization
+                                            of tests across languages can enhance test results. Psychometric tests
+                                            are a type of tool/instrument used in career counseling to measure
+                                            personal characteristics that influence career development and help an
+                                            individual to enhance self-awareness. Psychometric tests are the best
+                                            possible way to decode mental capabilities and behavior.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab2-g" role="tabpanel" aria-labelledby="tab2-g-tab">                                <div class="container">
+                              <div class="row">
+                                  <div class="col-md-5 order-md-last bgimg bgimg1">
+                                      <h2>
+                                        Career Planning
+                                      </h2>
+                                      <div class="dark-overlay"></div>
+                                  </div>
+                                <div class="col-md-7">
+                                    <h3>Plan your Future Career</h3>
+                                    <p>Career planning is important while choosing a career because every person
+                                        will have a lot of expectation while entering a career, but the real
+                                        life experience might be different. Now- a - days no one wish to
+                                        continue the same work lifelong. Here comes the importance of career
+                                        planning. We should have a clear idea of our interests and skills, which
+                                        in turn helps in choosing the career and planning the career graph..</p>
+                                </div>
+                              </div>
+                            </div></div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content3" role="tabpanel" aria-labelledby="navtab2-content3-tab">      <div class="text-center my-5">
+                          <h4>Programs For Counselor</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab3" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab3-a-tab" data-toggle="tab" href="#tab3-a" role="tab" aria-controls="tab3-a" aria-selected="true">Psychometric test</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab3-b-tab" data-toggle="tab" href="#tab3-b" role="tab" aria-controls="tab3-b" aria-selected="false">Be a career counselor</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab3-c-tab" data-toggle="tab" href="#tab3-c" role="tab" aria-controls="tab3-c" aria-selected="false">Certification</a>
+                          </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent3">
+                          <div class="tab-pane fade show active" id="tab3-a" role="tabpanel" aria-labelledby="tab3-a-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 bgimg bgimg1">
+                                          <h2>
+                                            Career Planning
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Plan your Future Career</h3>
+                                        <p>Career planning is important while choosing a career because every person
+                                            will have a lot of expectation while entering a career, but the real
+                                            life experience might be different. Now- a - days no one wish to
+                                            continue the same work lifelong. Here comes the importance of career
+                                            planning. We should have a clear idea of our interests and skills, which
+                                            in turn helps in choosing the career and planning the career graph..</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab3-b" role="tabpanel" aria-labelledby="tab3-b-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg2">
+                                          <h2>
+                                              Competitive Examination, Courses and Colleges
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Scientifically Designed Psychometric Tests</h3>
+                                        <p>Psychometric assessment is a standard and scientific method designed to
+                                            measure an individual’s suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. A reliable and valid
+                                            psychometric test can evaluate an individual and provide an objective
+                                            measure of his/her characteristics and abilities. Proper standardization
+                                            of tests across languages can enhance test results. Psychometric tests
+                                            are a type of tool/instrument used in career counseling to measure
+                                            personal characteristics that influence career development and help an
+                                            individual to enhance self-awareness. Psychometric tests are the best
+                                            possible way to decode mental capabilities and behavior.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab3-c" role="tabpanel" aria-labelledby="tab3-c-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 bgimg bgimg3">
+                                          <h2>
+                                              Career Fields
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Comprehensive and Interactive Psychometric
+                                            Test Reports</h3>
+                                        <p>Comprehensive and Interactive Psychometric Test Reports gives you
+                                            objective measure of your suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. Psychometric Test Report
+                                            gives your best fit stream/branch/career matches.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content4" role="tabpanel" aria-labelledby="navtab2-content4-tab">      <div class="text-center my-5">
+                          <h4>Programs For Mentor</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab4" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab4-a-tab" data-toggle="tab" href="#tab4-a" role="tab" aria-controls="tab4-a" aria-selected="true">Psychometric Test</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab4-b-tab" data-toggle="tab" href="#tab4-b" role="tab" aria-controls="tab4-b" aria-selected="false">Be a Mentor</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab4-c-tab" data-toggle="tab" href="#tab4-c" role="tab" aria-controls="tab4-c" aria-selected="false">Faqs</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="tab4-d-tab" data-toggle="tab" href="#tab4-d" role="tab" aria-controls="tab4-d" aria-selected="true">Study India</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="tab4-e-tab" data-toggle="tab" href="#tab4-e" role="tab" aria-controls="tab4-e" aria-selected="false">Study Abroad</a>
+                            </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent4">
+                          <div class="tab-pane fade show active" id="tab4-a" role="tabpanel" aria-labelledby="tab4-a-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg2">
+                                          <h2>
+                                              Competitive Examination, Courses and Colleges
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Scientifically Designed Psychometric Tests</h3>
+                                        <p>Psychometric assessment is a standard and scientific method designed to
+                                            measure an individual’s suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. A reliable and valid
+                                            psychometric test can evaluate an individual and provide an objective
+                                            measure of his/her characteristics and abilities. Proper standardization
+                                            of tests across languages can enhance test results. Psychometric tests
+                                            are a type of tool/instrument used in career counseling to measure
+                                            personal characteristics that influence career development and help an
+                                            individual to enhance self-awareness. Psychometric tests are the best
+                                            possible way to decode mental capabilities and behavior.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab4-b" role="tabpanel" aria-labelledby="tab4-b-tab">                              <div class="container">
+                              <div class="row">
+                                  <div class="col-md-5 bgimg bgimg3">
+                                      <h2>
+                                          Career Fields
+                                      </h2>
+                                      <div class="dark-overlay"></div>
+                                  </div>
+                                <div class="col-md-7">
+                                    <h3>Comprehensive and Interactive Psychometric
+                                        Test Reports</h3>
+                                    <p>Comprehensive and Interactive Psychometric Test Reports gives you
+                                        objective measure of your suitability for a role/career based on his/her
+                                        interests, aptitude, intelligence, knowledge, personality, skills,
+                                        motivation, values, and other related factors. Psychometric Test Report
+                                        gives your best fit stream/branch/career matches.</p>
+                                </div>
+                              </div>
+                            </div></div>
+                          <div class="tab-pane fade" id="tab4-c" role="tabpanel" aria-labelledby="tab4-c-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg4">
+                                          <h2>
+                                              Psychometric Assessments
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Get Personalised Career Counselling From
+                                            Our Experts</h3>
+                                        <p>Career counseling plays a vital role in choosing stream or branch,
+                                            choosing, changing, or leaving a career. A career counselor could be a
+                                            therapist, life coach, or a volunteer who will generally be trained to
+                                            provide guidance to choose right stream, branch, and careers, discuss
+                                            career development, and administer and interpret aptitude and ability
+                                            assessments.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab4-d" role="tabpanel" aria-labelledby="tab4-d-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 bgimg bgimg5">
+                                          <h2>
+                                              Career Counselling
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Get Personalised Career Guidance From
+                                            Our Experts</h3>
+                                        <p>Career guidance plays an important role in choosing stream or
+                                            branch,
+                                            choosing, changing, or leaving a career. It is the guidance given to
+                                            individuals to help them acquire the knowledge, information, skills,
+                                            and
+                                            experience necessary to identify career options, and narrow them
+                                            down to
+                                            make one career decision. Career Guidance involves continuous
+                                            monitoring
+                                            of their progress and provides suggestions to improve the
+                                            performance.
+                                            This career decision then results in their social, financial and
+                                            emotional well-being throughout.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab4-e" role="tabpanel" aria-labelledby="tab4-e-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg6">
+                                          <h2>
+                                              Mentoring
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Explore most popular career fields</h3>
+                                        <p>Career exploration provides vast information on various career
+                                                  fields..</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content5" role="tabpanel" aria-labelledby="navtab2-content5-tab">      <div class="text-center my-5">
+                          <h4>Programs For School</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab5" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab5-a-tab" data-toggle="tab" href="#tab5-a" role="tab" aria-controls="tab5-a" aria-selected="true">Psychometric
+                              Test</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab5-b-tab" data-toggle="tab" href="#tab5-b" role="tab" aria-controls="tab5-b" aria-selected="false">FAQs</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab5-c-tab" data-toggle="tab" href="#tab5-c" role="tab" aria-controls="tab5-c" aria-selected="false">Study India</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="tab5-d-tab" data-toggle="tab" href="#tab5-d" role="tab" aria-controls="tab5-d" aria-selected="true">Study Abroad</a>
+                            </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent5">
+                          <div class="tab-pane fade show active" id="tab5-a" role="tabpanel" aria-labelledby="tab5-a-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 bgimg bgimg1">
+                                          <h2>
+                                            Career Planning
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Plan your Future Career</h3>
+                                        <p>Career planning is important while choosing a career because every person
+                                            will have a lot of expectation while entering a career, but the real
+                                            life experience might be different. Now- a - days no one wish to
+                                            continue the same work lifelong. Here comes the importance of career
+                                            planning. We should have a clear idea of our interests and skills, which
+                                            in turn helps in choosing the career and planning the career graph..</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab5-b" role="tabpanel" aria-labelledby="tab5-b-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg2">
+                                          <h2>
+                                              Competitive Examination, Courses and Colleges
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Scientifically Designed Psychometric Tests</h3>
+                                        <p>Psychometric assessment is a standard and scientific method designed to
+                                            measure an individual’s suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. A reliable and valid
+                                            psychometric test can evaluate an individual and provide an objective
+                                            measure of his/her characteristics and abilities. Proper standardization
+                                            of tests across languages can enhance test results. Psychometric tests
+                                            are a type of tool/instrument used in career counseling to measure
+                                            personal characteristics that influence career development and help an
+                                            individual to enhance self-awareness. Psychometric tests are the best
+                                            possible way to decode mental capabilities and behavior.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab5-c" role="tabpanel" aria-labelledby="tab5-c-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 bgimg bgimg3">
+                                          <h2>
+                                              Career Fields
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Comprehensive and Interactive Psychometric
+                                            Test Reports</h3>
+                                        <p>Comprehensive and Interactive Psychometric Test Reports gives you
+                                            objective measure of your suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. Psychometric Test Report
+                                            gives your best fit stream/branch/career matches.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab5-d" role="tabpanel" aria-labelledby="tab5-d-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg4">
+                                          <h2>
+                                              Psychometric Assessments
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Get Personalised Career Counselling From
+                                            Our Experts</h3>
+                                        <p>Career counseling plays a vital role in choosing stream or branch,
+                                            choosing, changing, or leaving a career. A career counselor could be a
+                                            therapist, life coach, or a volunteer who will generally be trained to
+                                            provide guidance to choose right stream, branch, and careers, discuss
+                                            career development, and administer and interpret aptitude and ability
+                                            assessments.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content6" role="tabpanel" aria-labelledby="navtab2-content6-tab">      <div class="text-center my-5">
+                          <h4>Programs For College</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab6" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab6-a-tab" data-toggle="tab" href="#tab6-a" role="tab" aria-controls="tab6-a" aria-selected="true">Psychometric
+                              Test</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab6-b-tab" data-toggle="tab" href="#tab6-b" role="tab" aria-controls="tab6-b" aria-selected="false">FAQs</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab6-c-tab" data-toggle="tab" href="#tab6-c" role="tab" aria-controls="tab6-c" aria-selected="false">Study India</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="tab6-d-tab" data-toggle="tab" href="#tab6-d" role="tab" aria-controls="tab6-d" aria-selected="true">Study Abroad</a>
+                            </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent6">
+                          <div class="tab-pane fade show active" id="tab6-a" role="tabpanel" aria-labelledby="tab6-a-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg2">
+                                          <h2>
+                                              Competitive Examination, Courses and Colleges
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Scientifically Designed Psychometric Tests</h3>
+                                        <p>Psychometric assessment is a standard and scientific method designed to
+                                            measure an individual’s suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. A reliable and valid
+                                            psychometric test can evaluate an individual and provide an objective
+                                            measure of his/her characteristics and abilities. Proper standardization
+                                            of tests across languages can enhance test results. Psychometric tests
+                                            are a type of tool/instrument used in career counseling to measure
+                                            personal characteristics that influence career development and help an
+                                            individual to enhance self-awareness. Psychometric tests are the best
+                                            possible way to decode mental capabilities and behavior.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab6-b" role="tabpanel" aria-labelledby="tab6-b-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 bgimg bgimg3">
+                                          <h2>
+                                              Career Fields
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Comprehensive and Interactive Psychometric
+                                            Test Reports</h3>
+                                        <p>Comprehensive and Interactive Psychometric Test Reports gives you
+                                            objective measure of your suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. Psychometric Test Report
+                                            gives your best fit stream/branch/career matches.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab6-c" role="tabpanel" aria-labelledby="tab6-c-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg4">
+                                          <h2>
+                                              Psychometric Assessments
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Get Personalised Career Counselling From
+                                            Our Experts</h3>
+                                        <p>Career counseling plays a vital role in choosing stream or branch,
+                                            choosing, changing, or leaving a career. A career counselor could be a
+                                            therapist, life coach, or a volunteer who will generally be trained to
+                                            provide guidance to choose right stream, branch, and careers, discuss
+                                            career development, and administer and interpret aptitude and ability
+                                            assessments.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab6-d" role="tabpanel" aria-labelledby="tab6-d-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 bgimg bgimg5">
+                                          <h2>
+                                              Career Counselling
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Get Personalised Career Guidance From
+                                            Our Experts</h3>
+                                        <p>Career guidance plays an important role in choosing stream or
+                                            branch,
+                                            choosing, changing, or leaving a career. It is the guidance given to
+                                            individuals to help them acquire the knowledge, information, skills,
+                                            and
+                                            experience necessary to identify career options, and narrow them
+                                            down to
+                                            make one career decision. Career Guidance involves continuous
+                                            monitoring
+                                            of their progress and provides suggestions to improve the
+                                            performance.
+                                            This career decision then results in their social, financial and
+                                            emotional well-being throughout.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content7" role="tabpanel" aria-labelledby="navtab2-content7-tab">      <div class="text-center my-5">
+                          <h4>Programs For Institute</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab7" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab7-a-tab" data-toggle="tab" href="#tab7-a" role="tab" aria-controls="tab7-a" aria-selected="true">Psychometric
+                              Test</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab7-b-tab" data-toggle="tab" href="#tab7-b" role="tab" aria-controls="tab7-b" aria-selected="false">FAQs</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab7-c-tab" data-toggle="tab" href="#tab7-c" role="tab" aria-controls="tab7-c" aria-selected="false">Study India</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="tab7-d-tab" data-toggle="tab" href="#tab7-d" role="tab" aria-controls="tab7-d" aria-selected="true">Study Abroad</a>
+                            </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent7">
+                          <div class="tab-pane fade show active" id="tab7-a" role="tabpanel" aria-labelledby="tab7-a-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 bgimg bgimg1">
+                                          <h2>
+                                            Career Planning
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Plan your Future Career</h3>
+                                        <p>Career planning is important while choosing a career because every person
+                                            will have a lot of expectation while entering a career, but the real
+                                            life experience might be different. Now- a - days no one wish to
+                                            continue the same work lifelong. Here comes the importance of career
+                                            planning. We should have a clear idea of our interests and skills, which
+                                            in turn helps in choosing the career and planning the career graph..</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab7-b" role="tabpanel" aria-labelledby="tab7-b-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg2">
+                                          <h2>
+                                              Competitive Examination, Courses and Colleges
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Scientifically Designed Psychometric Tests</h3>
+                                        <p>Psychometric assessment is a standard and scientific method designed to
+                                            measure an individual’s suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. A reliable and valid
+                                            psychometric test can evaluate an individual and provide an objective
+                                            measure of his/her characteristics and abilities. Proper standardization
+                                            of tests across languages can enhance test results. Psychometric tests
+                                            are a type of tool/instrument used in career counseling to measure
+                                            personal characteristics that influence career development and help an
+                                            individual to enhance self-awareness. Psychometric tests are the best
+                                            possible way to decode mental capabilities and behavior.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab7-c" role="tabpanel" aria-labelledby="tab7-c-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 bgimg bgimg3">
+                                          <h2>
+                                              Career Fields
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Comprehensive and Interactive Psychometric
+                                            Test Reports</h3>
+                                        <p>Comprehensive and Interactive Psychometric Test Reports gives you
+                                            objective measure of your suitability for a role/career based on his/her
+                                            interests, aptitude, intelligence, knowledge, personality, skills,
+                                            motivation, values, and other related factors. Psychometric Test Report
+                                            gives your best fit stream/branch/career matches.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab7-d" role="tabpanel" aria-labelledby="tab7-d-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col-md-5 order-md-last bgimg bgimg4">
+                                          <h2>
+                                              Psychometric Assessments
+                                          </h2>
+                                          <div class="dark-overlay"></div>
+                                      </div>
+                                    <div class="col-md-7">
+                                        <h3>Get Personalised Career Counselling From
+                                            Our Experts</h3>
+                                        <p>Career counseling plays a vital role in choosing stream or branch,
+                                            choosing, changing, or leaving a career. A career counselor could be a
+                                            therapist, life coach, or a volunteer who will generally be trained to
+                                            provide guidance to choose right stream, branch, and careers, discuss
+                                            career development, and administer and interpret aptitude and ability
+                                            assessments.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!--
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+     -->
+    <footer class="custom-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-12 col-md-6 col-sm-12">
+            <a href="#"
+              ><img id="logo-footer" src="images/dummy-logo.png" alt=""
+            /></a>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, eum accusamus debitis temporibus in ratione ipsa praesentium iusto tempore. Minima, culpa deleniti exercitationem ut eveniet quisquam illum assumenda officiis veniam?</p>
+          </div>
+          <div id="quick-links" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <h5>Quick Links</h5>
+            <div class="wrapper d-flex">
+              <ul class="no-bullets">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Program</a></li>
+                <li><a href="Benefits.html">Benifits</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="">Upcoming Events</a></li>
+              </ul>
+              <ul class="no-bullets">
+                <li><a href="">Students</a></li>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+                <li>
+                  <a href="privacy-and-policy.html">Privacy And Policy</a>
+                </li>
+                <li><a href="refund.html">Refund Policy</a></li>
+                <li><a href="">Policy</a></li>
+                <li>
+                  <a href="Terms-and-conditions.html">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <h5>Institute Hours</h5>
+            <ul class="no-bullets">
+              <li>Monday: 09:00 - 17:00</li>
+              <li>Tuseday: 09:00 - 17:00</li>
+              <li>Wednesday: 09:00 - 17:00</li>
+              <li>Thursday: 09:00 - 17:00</li>
+              <li>Friday: 09:00 - 17:00</li>
+              <li>Saturday, Sunday: No Admission/Enquiry</li>
+            </ul>
+          </div>
+          <div id="contact-footer" class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <ul class="no-bullets">
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Address:</h6>
+                  <a href="#"
+                    >132 Jefferson Avenue, Suite 22, Redwood City, CA 94872,
+                    USA</a
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Phone:</h6>
+                  <a href="tel:(00) 123 456 789">(00) 123 456 789</a>
+                </div>
+              </li>
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Email:</h6>
+                  <a href="mailto:name@gmail.com">name@gmail.com</a>
+                </div>
+              </li>
+              <li class="social-footer">
+                <h6>FOLLOW US</h6>
+                <span class="social-bottom">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Page preloader -->
+    <script>
+        $(window).on('load', function () {
+          $('.spinner').fadeOut();
+        });
+      </script>
+  </body>
+</html>

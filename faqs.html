@@ -1,0 +1,1789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Website</title>
+    <script
+      src="https://kit.fontawesome.com/4b4f9eab19.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/slick/slick.css" />
+    <link rel="stylesheet" href="assets/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body id="faqs-page">
+    <!-- Page preloader -->
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
+
+    <nav id="nav1" class="navbar">
+      <div class="container-fluid">
+        <div class="mr-auto">
+          Questions? &nbsp;<a href="tel:123-123-1234"
+            ><i class="fas fa-phone-alt"></i> 123-123-1234</a
+          >
+        </div>
+        <div class="ml-auto">
+          <a href="mailto:mail@example.com"
+            ><i class="fas fa-envelope"></i> mail@example.com</a
+          >
+          &nbsp;&nbsp; <i class="fa fa-clock-o"></i> Mon-Fri: 09:00 - 17:00
+          <span class="social-top">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <nav id="nav2" class="navbar navbar-expand-lg navbar-dark px-2 nav2-inner">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img id="logo" src="images/dummy-logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="navColor();"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#section4">Benefits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="programs.html">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="faqs.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="section0">
+        <div class="container py-4">
+          <div class="row">
+            <h2 class="main-heading m-auto">FAQs</h2>
+          </div>
+          <span class="section-break-mini"><em></em></span>
+        </div>
+      </div>
+
+    <section id="section1" class="custom-padding">
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                  <ul class="nav nav-pills nav-justified" id="myTabB" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="navtab2-content1-tab" data-toggle="pill" href="#navtab2-content1" role="pill" aria-controls="navtab-content1" aria-selected="true"><i class="fas fa-street-view"></i><span>Programs For Students</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="navtab2-content2-tab" data-toggle="pill" href="#navtab2-content2" role="pill" aria-controls="navtab-content2" aria-selected="false"><i class="fas fa-users"></i><span>Programs For Parents</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="navtab2-content3-tab" data-toggle="pill" href="#navtab2-content3" role="pill" aria-controls="navtab-content3" aria-selected="false"><i class="fas fa-assistive-listening-systems"></i><span>Programs For Counselor</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" id="navtab2-content4-tab" data-toggle="pill" href="#navtab2-content4" role="pill" aria-controls="contact" aria-selected="false"><i class="fas fa-eye"></i><span>Programs For Mentor</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navtab2-content5-tab" data-toggle="pill" href="#navtab2-content5" role="pill" aria-controls="contact" aria-selected="false"><i class="fas fa-university"></i><span>Programs For School</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" id="navtab2-content6-tab" data-toggle="pill" href="#navtab2-content6" role="pill" aria-controls="contact" aria-selected="false"><i class="fas fa-graduation-cap"></i>
+                            <span>Programs For College</span></a>
+                          </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="navtab2-content7-tab" data-toggle="pill" href="#navtab2-content7" role="pill" aria-controls="contact" aria-selected="false"><i class="fas fa-industry"></i><span>Programs For Institute</span></a>
+                              </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContentB">
+                      <div class="tab-pane fade show active" id="navtab2-content1" role="tabpanel" aria-labelledby="navtab2-content1-tab">
+                        <div class="text-center my-5">
+                          <h4>Programs For Students</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab1" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" id="tab1-a-tab" data-toggle="tab" href="#tab1-a" role="tab" aria-controls="tab1-a" aria-selected="true">Class 8-9</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="tab1-b-tab" data-toggle="tab" href="#tab1-b" role="tab" aria-controls="tab1-b" aria-selected="false">Class 10-12</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="tab1-c-tab" data-toggle="tab" href="#tab1-c" role="tab" aria-controls="tab1-c" aria-selected="false">Graduates/Professionals</a>
+                            </li>
+                        </ul>
+                          <div class="tab-content" id="myTabContent1">
+                            <div class="tab-pane fade show active" id="tab1-a" role="tabpanel" aria-labelledby="tab1-a-tab">
+                                <div class="container">
+                                    <div class="row">
+
+    <div class="col">
+        <div class="accordion" id="accordionExample1">
+            <div class="card">
+              <div class="card-header" id="headingOne1">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                      Why Career guidance is Important for school students?
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseOne1" class="collapse show" aria-labelledby="headingOne1" data-parent="#accordionExample1">
+                <div class="card-body">
+                    Career guidance helps Students to develop a set
+                    of career goals, strategy and options based on their aptitude,
+                    interests, personality, values and skills.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo1">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
+                      Is a High school student can participate in Me Life Psychometric
+                      Assessment?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordionExample1">
+                <div class="card-body">
+                    Of course, High school student can participate
+                    in Me Life Psychometric Assessment. Student and parents or guardian
+                    can see the test report, clarify their doubts and clear their
+                    confusions..
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree1">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
+                      How are skills different than aptitudes?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree1" class="collapse" aria-labelledby="headingThree1" data-parent="#accordionExample1">
+                <div class="card-body">
+                    Aptitudes are inborn; it is a natural ability to
+                    acquire knowledge or skill whereas Skills are acquired or learned.
+                    All are born with Aptitudes and Abilities that don't change with
+                    practice and Skills can be developed by practice.
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+                                  </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab1-b" role="tabpanel" aria-labelledby="tab1-b-tab">
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col">
+                                            <div class="accordion" id="accordionExample2">
+                                                <div class="card">
+                                                  <div class="card-header" id="headingOne2">
+                                                    <h5 class="mb-0">
+                                                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                                          Why Career guidance is Important for school students?
+                                                      </button>
+                                                    </h5>
+                                                  </div>
+
+                                                  <div id="collapseOne2" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordionExample2">
+                                                    <div class="card-body">
+                                                        Career guidance helps Students to develop a set
+                                                        of career goals, strategy and options based on their aptitude,
+                                                        interests, personality, values and skills.
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="card">
+                                                  <div class="card-header" id="headingTwo2">
+                                                    <h5 class="mb-0">
+                                                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                                                          Is a High school student can participate in Me Life Psychometric
+                                                          Assessment?
+                                                      </button>
+                                                    </h5>
+                                                  </div>
+                                                  <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordionExample2">
+                                                    <div class="card-body">
+                                                        Of course, High school student can participate
+                                                        in Me Life Psychometric Assessment. Student and parents or guardian
+                                                        can see the test report, clarify their doubts and clear their
+                                                        confusions..
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="card">
+                                                  <div class="card-header" id="headingThree2">
+                                                    <h5 class="mb-0">
+                                                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+                                                          How are skills different than aptitudes?
+                                                      </button>
+                                                    </h5>
+                                                  </div>
+                                                  <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordionExample2">
+                                                    <div class="card-body">
+                                                        Aptitudes are inborn; it is a natural ability to
+                                                        acquire knowledge or skill whereas Skills are acquired or learned.
+                                                        All are born with Aptitudes and Abilities that don't change with
+                                                        practice and Skills can be developed by practice.
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                        </div>
+
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab1-c" role="tabpanel" aria-labelledby="tab1-c-tab">
+                              <div class="container">
+                                <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample3">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne3">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne3" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordionExample3">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo3">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordionExample3">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree3">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordionExample3">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content2" role="tabpanel" aria-labelledby="navtab2-content2-tab">      <div class="text-center my-5">
+                          <h4>Programs For Parents</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab2" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab2-a-tab" data-toggle="tab" href="#tab2-a" role="tab" aria-controls="tab2-a" aria-selected="true">Class
+                              8-9</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab2-b-tab" data-toggle="tab" href="#tab2-b" role="tab" aria-controls="tab2-b" aria-selected="false">Class 10-12</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab2-c-tab" data-toggle="tab" href="#tab2-c" role="tab" aria-controls="tab2-c" aria-selected="false">Graduates/Professionals</a>
+                          </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent2">
+                          <div class="tab-pane fade show active" id="tab2-a" role="tabpanel" aria-labelledby="tab2-a-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                      <div class="col">
+                                          <div class="accordion" id="accordionExample4">
+                                              <div class="card">
+                                                <div class="card-header" id="headingOne4">
+                                                  <h5 class="mb-0">
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
+                                                        Why Career guidance is Important for school students?
+                                                    </button>
+                                                  </h5>
+                                                </div>
+
+                                                <div id="collapseOne4" class="collapse show" aria-labelledby="headingOne4" data-parent="#accordionExample4">
+                                                  <div class="card-body">
+                                                      Career guidance helps Students to develop a set
+                                                      of career goals, strategy and options based on their aptitude,
+                                                      interests, personality, values and skills.
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="card">
+                                                <div class="card-header" id="headingTwo4">
+                                                  <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo4" aria-expanded="false" aria-controls="collapseTwo4">
+                                                        Is a High school student can participate in Me Life Psychometric
+                                                        Assessment?
+                                                    </button>
+                                                  </h5>
+                                                </div>
+                                                <div id="collapseTwo4" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordionExample4">
+                                                  <div class="card-body">
+                                                      Of course, High school student can participate
+                                                      in Me Life Psychometric Assessment. Student and parents or guardian
+                                                      can see the test report, clarify their doubts and clear their
+                                                      confusions..
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="card">
+                                                <div class="card-header" id="headingThree4">
+                                                  <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
+                                                        How are skills different than aptitudes?
+                                                    </button>
+                                                  </h5>
+                                                </div>
+                                                <div id="collapseThree4" class="collapse" aria-labelledby="headingThree4" data-parent="#accordionExample4">
+                                                  <div class="card-body">
+                                                      Aptitudes are inborn; it is a natural ability to
+                                                      acquire knowledge or skill whereas Skills are acquired or learned.
+                                                      All are born with Aptitudes and Abilities that don't change with
+                                                      practice and Skills can be developed by practice.
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab2-b" role="tabpanel" aria-labelledby="tab2-b-tab">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col">
+                                          <div class="accordion" id="accordionExample5">
+                                              <div class="card">
+                                                <div class="card-header" id="headingOne5">
+                                                  <h5 class="mb-0">
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5">
+                                                        Why Career guidance is Important for school students?
+                                                    </button>
+                                                  </h5>
+                                                </div>
+
+                                                <div id="collapseOne5" class="collapse show" aria-labelledby="headingOne5" data-parent="#accordionExample5">
+                                                  <div class="card-body">
+                                                      Career guidance helps Students to develop a set
+                                                      of career goals, strategy and options based on their aptitude,
+                                                      interests, personality, values and skills.
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="card">
+                                                <div class="card-header" id="headingTwo5">
+                                                  <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo5" aria-expanded="false" aria-controls="collapseTwo5">
+                                                        Is a High school student can participate in Me Life Psychometric
+                                                        Assessment?
+                                                    </button>
+                                                  </h5>
+                                                </div>
+                                                <div id="collapseTwo5" class="collapse" aria-labelledby="headingTwo5" data-parent="#accordionExample5">
+                                                  <div class="card-body">
+                                                      Of course, High school student can participate
+                                                      in Me Life Psychometric Assessment. Student and parents or guardian
+                                                      can see the test report, clarify their doubts and clear their
+                                                      confusions..
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="card">
+                                                <div class="card-header" id="headingThree5">
+                                                  <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5">
+                                                        How are skills different than aptitudes?
+                                                    </button>
+                                                  </h5>
+                                                </div>
+                                                <div id="collapseThree5" class="collapse" aria-labelledby="headingThree5" data-parent="#accordionExample5">
+                                                  <div class="card-body">
+                                                      Aptitudes are inborn; it is a natural ability to
+                                                      acquire knowledge or skill whereas Skills are acquired or learned.
+                                                      All are born with Aptitudes and Abilities that don't change with
+                                                      practice and Skills can be developed by practice.
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab2-c" role="tabpanel" aria-labelledby="tab2-c-tab">                                <div class="container">
+                              <div class="row">
+
+                                <div class="col">
+                                  <div class="accordion" id="accordionExample6">
+                                      <div class="card">
+                                        <div class="card-header" id="headingOne6">
+                                          <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne6" aria-expanded="true" aria-controls="collapseOne6">
+                                                Why Career guidance is Important for school students?
+                                            </button>
+                                          </h5>
+                                        </div>
+
+                                        <div id="collapseOne6" class="collapse show" aria-labelledby="headingOne6" data-parent="#accordionExample6">
+                                          <div class="card-body">
+                                              Career guidance helps Students to develop a set
+                                              of career goals, strategy and options based on their aptitude,
+                                              interests, personality, values and skills.
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="card">
+                                        <div class="card-header" id="headingTwo6">
+                                          <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo6" aria-expanded="false" aria-controls="collapseTwo6">
+                                                Is a High school student can participate in Me Life Psychometric
+                                                Assessment?
+                                            </button>
+                                          </h5>
+                                        </div>
+                                        <div id="collapseTwo6" class="collapse" aria-labelledby="headingTwo6" data-parent="#accordionExample6">
+                                          <div class="card-body">
+                                              Of course, High school student can participate
+                                              in Me Life Psychometric Assessment. Student and parents or guardian
+                                              can see the test report, clarify their doubts and clear their
+                                              confusions..
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="card">
+                                        <div class="card-header" id="headingThree6">
+                                          <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree6" aria-expanded="false" aria-controls="collapseThree6">
+                                                How are skills different than aptitudes?
+                                            </button>
+                                          </h5>
+                                        </div>
+                                        <div id="collapseThree6" class="collapse" aria-labelledby="headingThree6" data-parent="#accordionExample6">
+                                          <div class="card-body">
+                                              Aptitudes are inborn; it is a natural ability to
+                                              acquire knowledge or skill whereas Skills are acquired or learned.
+                                              All are born with Aptitudes and Abilities that don't change with
+                                              practice and Skills can be developed by practice.
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content3" role="tabpanel" aria-labelledby="navtab2-content3-tab">      <div class="text-center my-5">
+                          <h4>Programs For Counselor</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab3" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab3-a-tab" data-toggle="tab" href="#tab3-a" role="tab" aria-controls="tab3-a" aria-selected="true">Psychometric test</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab3-b-tab" data-toggle="tab" href="#tab3-b" role="tab" aria-controls="tab3-b" aria-selected="false">Be a career counselor</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab3-c-tab" data-toggle="tab" href="#tab3-c" role="tab" aria-controls="tab3-c" aria-selected="false">Certification</a>
+                          </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent3">
+                          <div class="tab-pane fade show active" id="tab3-a" role="tabpanel" aria-labelledby="tab3-a-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample7">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne7">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne7" aria-expanded="true" aria-controls="collapseOne7">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne7" class="collapse show" aria-labelledby="headingOne7" data-parent="#accordionExample7">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo7">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo7" aria-expanded="false" aria-controls="collapseTwo7">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo7" class="collapse" aria-labelledby="headingTwo7" data-parent="#accordionExample7">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree7">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree7" aria-expanded="false" aria-controls="collapseThree7">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree7" class="collapse" aria-labelledby="headingThree7" data-parent="#accordionExample7">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab3-b" role="tabpanel" aria-labelledby="tab3-b-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample8">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne8">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne8" aria-expanded="true" aria-controls="collapseOne8">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne8" class="collapse show" aria-labelledby="headingOne8" data-parent="#accordionExample8">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo8">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo8" aria-expanded="false" aria-controls="collapseTwo8">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo8" class="collapse" aria-labelledby="headingTwo8" data-parent="#accordionExample8">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree8">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree8" aria-expanded="false" aria-controls="collapseThree8">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree8" class="collapse" aria-labelledby="headingThree8" data-parent="#accordionExample8">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab3-c" role="tabpanel" aria-labelledby="tab3-c-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample9">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne9">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne9" aria-expanded="true" aria-controls="collapseOne9">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne9" class="collapse show" aria-labelledby="headingOne9" data-parent="#accordionExample9">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo9">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo9" aria-expanded="false" aria-controls="collapseTwo9">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo9" class="collapse" aria-labelledby="headingTwo9" data-parent="#accordionExample9">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree9">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree9" aria-expanded="false" aria-controls="collapseThree9">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree9" class="collapse" aria-labelledby="headingThree9" data-parent="#accordionExample9">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content4" role="tabpanel" aria-labelledby="navtab2-content4-tab">      <div class="text-center my-5">
+                          <h4>Programs For Mentor</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab4" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab4-a-tab" data-toggle="tab" href="#tab4-a" role="tab" aria-controls="tab4-a" aria-selected="true">Psychometric Test</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab4-b-tab" data-toggle="tab" href="#tab4-b" role="tab" aria-controls="tab4-b" aria-selected="false">Be a Mentor</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab4-c-tab" data-toggle="tab" href="#tab4-c" role="tab" aria-controls="tab4-c" aria-selected="false">Faqs</a>
+                          </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent4">
+                          <div class="tab-pane fade show active" id="tab4-a" role="tabpanel" aria-labelledby="tab4-a-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample10">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne10">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne10" aria-expanded="true" aria-controls="collapseOne10">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne10" class="collapse show" aria-labelledby="headingOne10" data-parent="#accordionExample10">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo10">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo10" aria-expanded="false" aria-controls="collapseTwo10">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo10" class="collapse" aria-labelledby="headingTwo10" data-parent="#accordionExample10">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree10">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree10" aria-expanded="false" aria-controls="collapseThree10">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree10" class="collapse" aria-labelledby="headingThree10" data-parent="#accordionExample10">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab4-b" role="tabpanel" aria-labelledby="tab4-b-tab">                              <div class="container">
+                              <div class="row">
+
+                                <div class="col">
+                                  <div class="accordion" id="accordionExample11">
+                                      <div class="card">
+                                        <div class="card-header" id="headingOne11">
+                                          <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne11" aria-expanded="true" aria-controls="collapseOne11">
+                                                Why Career guidance is Important for school students?
+                                            </button>
+                                          </h5>
+                                        </div>
+
+                                        <div id="collapseOne11" class="collapse show" aria-labelledby="headingOne11" data-parent="#accordionExample11">
+                                          <div class="card-body">
+                                              Career guidance helps Students to develop a set
+                                              of career goals, strategy and options based on their aptitude,
+                                              interests, personality, values and skills.
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="card">
+                                        <div class="card-header" id="headingTwo11">
+                                          <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo11" aria-expanded="false" aria-controls="collapseTwo11">
+                                                Is a High school student can participate in Me Life Psychometric
+                                                Assessment?
+                                            </button>
+                                          </h5>
+                                        </div>
+                                        <div id="collapseTwo11" class="collapse" aria-labelledby="headingTwo11" data-parent="#accordionExample11">
+                                          <div class="card-body">
+                                              Of course, High school student can participate
+                                              in Me Life Psychometric Assessment. Student and parents or guardian
+                                              can see the test report, clarify their doubts and clear their
+                                              confusions..
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="card">
+                                        <div class="card-header" id="headingThree11">
+                                          <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree11" aria-expanded="false" aria-controls="collapseThree11">
+                                                How are skills different than aptitudes?
+                                            </button>
+                                          </h5>
+                                        </div>
+                                        <div id="collapseThree11" class="collapse" aria-labelledby="headingThree11" data-parent="#accordionExample11">
+                                          <div class="card-body">
+                                              Aptitudes are inborn; it is a natural ability to
+                                              acquire knowledge or skill whereas Skills are acquired or learned.
+                                              All are born with Aptitudes and Abilities that don't change with
+                                              practice and Skills can be developed by practice.
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+
+                              </div>
+                            </div></div>
+                          <div class="tab-pane fade" id="tab4-c" role="tabpanel" aria-labelledby="tab4-c-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample12">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne12">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne12" aria-expanded="true" aria-controls="collapseOne12">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne12" class="collapse show" aria-labelledby="headingOne12" data-parent="#accordionExample12">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo12">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo12" aria-expanded="false" aria-controls="collapseTwo12">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo12" class="collapse" aria-labelledby="headingTwo12" data-parent="#accordionExample12">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree12">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree12" aria-expanded="false" aria-controls="collapseThree12">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree12" class="collapse" aria-labelledby="headingThree12" data-parent="#accordionExample12">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content5" role="tabpanel" aria-labelledby="navtab2-content5-tab">      <div class="text-center my-5">
+                          <h4>Programs For School</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab5" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab5-a-tab" data-toggle="tab" href="#tab5-a" role="tab" aria-controls="tab5-a" aria-selected="true">Psychometric
+                              Test</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab5-b-tab" data-toggle="tab" href="#tab5-b" role="tab" aria-controls="tab5-b" aria-selected="false">FAQs</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab5-c-tab" data-toggle="tab" href="#tab5-c" role="tab" aria-controls="tab5-c" aria-selected="false">Study India</a>
+                          </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent5">
+                          <div class="tab-pane fade show active" id="tab5-a" role="tabpanel" aria-labelledby="tab5-a-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample13">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne13">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne13" aria-expanded="true" aria-controls="collapseOne13">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne13" class="collapse show" aria-labelledby="headingOne13" data-parent="#accordionExample13">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo13">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo13" aria-expanded="false" aria-controls="collapseTwo13">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo13" class="collapse" aria-labelledby="headingTwo13" data-parent="#accordionExample13">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree13">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree13" aria-expanded="false" aria-controls="collapseThree13">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree13" class="collapse" aria-labelledby="headingThree13" data-parent="#accordionExample13">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab5-b" role="tabpanel" aria-labelledby="tab5-b-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample14">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne14">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne14" aria-expanded="true" aria-controls="collapseOne14">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne14" class="collapse show" aria-labelledby="headingOne14" data-parent="#accordionExample14">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo14">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo14" aria-expanded="false" aria-controls="collapseTwo14">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo14" class="collapse" aria-labelledby="headingTwo14" data-parent="#accordionExample14">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree14">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree14" aria-expanded="false" aria-controls="collapseThree14">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree14" class="collapse" aria-labelledby="headingThree14" data-parent="#accordionExample14">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab5-c" role="tabpanel" aria-labelledby="tab5-c-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample15">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne15">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne15" aria-expanded="true" aria-controls="collapseOne15">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne15" class="collapse show" aria-labelledby="headingOne15" data-parent="#accordionExample15">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo15">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo15" aria-expanded="false" aria-controls="collapseTwo15">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo15" class="collapse" aria-labelledby="headingTwo15" data-parent="#accordionExample15">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree15">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree15" aria-expanded="false" aria-controls="collapseThree15">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree15" class="collapse" aria-labelledby="headingThree15" data-parent="#accordionExample15">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content6" role="tabpanel" aria-labelledby="navtab2-content6-tab">      <div class="text-center my-5">
+                          <h4>Programs For College</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab6" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab6-a-tab" data-toggle="tab" href="#tab6-a" role="tab" aria-controls="tab6-a" aria-selected="true">Psychometric
+                              Test</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab6-b-tab" data-toggle="tab" href="#tab6-b" role="tab" aria-controls="tab6-b" aria-selected="false">FAQs</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab6-c-tab" data-toggle="tab" href="#tab6-c" role="tab" aria-controls="tab6-c" aria-selected="false">Study India</a>
+                          </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent6">
+                          <div class="tab-pane fade show active" id="tab6-a" role="tabpanel" aria-labelledby="tab6-a-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample16">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne16">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne16" aria-expanded="true" aria-controls="collapseOne16">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne16" class="collapse show" aria-labelledby="headingOne16" data-parent="#accordionExample16">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo16">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo16" aria-expanded="false" aria-controls="collapseTwo16">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo16" class="collapse" aria-labelledby="headingTwo16" data-parent="#accordionExample16">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree16">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree16" aria-expanded="false" aria-controls="collapseThree16">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree16" class="collapse" aria-labelledby="headingThree16" data-parent="#accordionExample16">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab6-b" role="tabpanel" aria-labelledby="tab6-b-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample17">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne17">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne17" aria-expanded="true" aria-controls="collapseOne17">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne17" class="collapse show" aria-labelledby="headingOne17" data-parent="#accordionExample17">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo17">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo17" aria-expanded="false" aria-controls="collapseTwo17">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo17" class="collapse" aria-labelledby="headingTwo17" data-parent="#accordionExample17">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree17">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree17" aria-expanded="false" aria-controls="collapseThree17">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree17" class="collapse" aria-labelledby="headingThree17" data-parent="#accordionExample17">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab6-c" role="tabpanel" aria-labelledby="tab6-c-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample18">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne18">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne18" aria-expanded="true" aria-controls="collapseOne18">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne18" class="collapse show" aria-labelledby="headingOne18" data-parent="#accordionExample18">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo18">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo18" aria-expanded="false" aria-controls="collapseTwo18">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo18" class="collapse" aria-labelledby="headingTwo18" data-parent="#accordionExample18">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree18">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree18" aria-expanded="false" aria-controls="collapseThree18">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree18" class="collapse" aria-labelledby="headingThree18" data-parent="#accordionExample18">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="navtab2-content7" role="tabpanel" aria-labelledby="navtab2-content7-tab">      <div class="text-center my-5">
+                          <h4>Programs For Institute</h4>
+                          <h6>Find Best Course For Yourself!</h6>
+                          <span class="section-break"><em></em></span>
+                        </div>
+
+                        <ul class="nav nav-tabs" id="myTab7" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" id="tab7-a-tab" data-toggle="tab" href="#tab7-a" role="tab" aria-controls="tab7-a" aria-selected="true">Psychometric
+                              Test</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab7-b-tab" data-toggle="tab" href="#tab7-b" role="tab" aria-controls="tab7-b" aria-selected="false">FAQs</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="tab7-c-tab" data-toggle="tab" href="#tab7-c" role="tab" aria-controls="tab7-c" aria-selected="false">Study India</a>
+                          </li>
+                      </ul>
+                        <div class="tab-content" id="myTabContent7">
+                          <div class="tab-pane fade show active" id="tab7-a" role="tabpanel" aria-labelledby="tab7-a-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample19">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne19">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne19" aria-expanded="true" aria-controls="collapseOne19">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne19" class="collapse show" aria-labelledby="headingOne19" data-parent="#accordionExample19">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo19">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo19" aria-expanded="false" aria-controls="collapseTwo19">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo19" class="collapse" aria-labelledby="headingTwo19" data-parent="#accordionExample19">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree19">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree19" aria-expanded="false" aria-controls="collapseThree19">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree19" class="collapse" aria-labelledby="headingThree19" data-parent="#accordionExample19">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab7-b" role="tabpanel" aria-labelledby="tab7-b-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample20">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne20">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne20" aria-expanded="true" aria-controls="collapseOne20">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne20" class="collapse show" aria-labelledby="headingOne20" data-parent="#accordionExample20">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo20">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo20" aria-expanded="false" aria-controls="collapseTwo20">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo20" class="collapse" aria-labelledby="headingTwo20" data-parent="#accordionExample20">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree20">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree20" aria-expanded="false" aria-controls="collapseThree20">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree20" class="collapse" aria-labelledby="headingThree20" data-parent="#accordionExample20">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab7-c" role="tabpanel" aria-labelledby="tab7-c-tab">
+                              <div class="container">
+                                  <div class="row">
+
+                                    <div class="col">
+                                      <div class="accordion" id="accordionExample21">
+                                          <div class="card">
+                                            <div class="card-header" id="headingOne21">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne21" aria-expanded="true" aria-controls="collapseOne21">
+                                                    Why Career guidance is Important for school students?
+                                                </button>
+                                              </h5>
+                                            </div>
+
+                                            <div id="collapseOne21" class="collapse show" aria-labelledby="headingOne21" data-parent="#accordionExample21">
+                                              <div class="card-body">
+                                                  Career guidance helps Students to develop a set
+                                                  of career goals, strategy and options based on their aptitude,
+                                                  interests, personality, values and skills.
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingTwo21">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo21" aria-expanded="false" aria-controls="collapseTwo21">
+                                                    Is a High school student can participate in Me Life Psychometric
+                                                    Assessment?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseTwo21" class="collapse" aria-labelledby="headingTwo21" data-parent="#accordionExample21">
+                                              <div class="card-body">
+                                                  Of course, High school student can participate
+                                                  in Me Life Psychometric Assessment. Student and parents or guardian
+                                                  can see the test report, clarify their doubts and clear their
+                                                  confusions..
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card">
+                                            <div class="card-header" id="headingThree21">
+                                              <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree21" aria-expanded="false" aria-controls="collapseThree21">
+                                                    How are skills different than aptitudes?
+                                                </button>
+                                              </h5>
+                                            </div>
+                                            <div id="collapseThree21" class="collapse" aria-labelledby="headingThree21" data-parent="#accordionExample21">
+                                              <div class="card-body">
+                                                  Aptitudes are inborn; it is a natural ability to
+                                                  acquire knowledge or skill whereas Skills are acquired or learned.
+                                                  All are born with Aptitudes and Abilities that don't change with
+                                                  practice and Skills can be developed by practice.
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!--
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+     -->
+
+    <footer class="custom-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-12 col-md-6 col-sm-12">
+            <a href="#"
+              ><img id="logo-footer" src="images/dummy-logo.png" alt=""
+            /></a>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, eum accusamus debitis temporibus in ratione ipsa praesentium iusto tempore. Minima, culpa deleniti exercitationem ut eveniet quisquam illum assumenda officiis veniam?</p>
+          </div>
+          <div id="quick-links" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <h5>Quick Links</h5>
+            <div class="wrapper d-flex">
+              <ul class="no-bullets">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Program</a></li>
+                <li><a href="Benefits.html">Benifits</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="">Upcoming Events</a></li>
+              </ul>
+              <ul class="no-bullets">
+                <li><a href="">Students</a></li>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+                <li>
+                  <a href="privacy-and-policy.html">Privacy And Policy</a>
+                </li>
+                <li><a href="refund.html">Refund Policy</a></li>
+                <li><a href="">Policy</a></li>
+                <li>
+                  <a href="Terms-and-conditions.html">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <h5>Institute Hours</h5>
+            <ul class="no-bullets">
+              <li>Monday: 09:00 - 17:00</li>
+              <li>Tuseday: 09:00 - 17:00</li>
+              <li>Wednesday: 09:00 - 17:00</li>
+              <li>Thursday: 09:00 - 17:00</li>
+              <li>Friday: 09:00 - 17:00</li>
+              <li>Saturday, Sunday: No Admission/Enquiry</li>
+            </ul>
+          </div>
+          <div id="contact-footer" class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <ul class="no-bullets">
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Address:</h6>
+                  <a href="#"
+                    >132 Jefferson Avenue, Suite 22, Redwood City, CA 94872,
+                    USA</a
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Phone:</h6>
+                  <a href="tel:(00) 123 456 789">(00) 123 456 789</a>
+                </div>
+              </li>
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Email:</h6>
+                  <a href="mailto:name@gmail.com">name@gmail.com</a>
+                </div>
+              </li>
+              <li class="social-footer">
+                <h6>FOLLOW US</h6>
+                <span class="social-bottom">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+     -->
+    <script
+      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Page preloader -->
+    <script>
+      $(window).on('load', function () {
+        $('.spinner').fadeOut();
+      });
+    </script>
+
+    <script src="js/app.js" async></script>
+
+    <!-- Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      $(function() {
+        AOS.init();
+      });
+
+      $(window).on("load", function() {
+        AOS.refresh();
+      });
+    </script>
+  </body>
+</html>

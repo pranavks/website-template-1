@@ -1,0 +1,128 @@
+#home-page {
+
+    #section7 {
+        .card-deck {
+            padding: 20px;
+        }
+
+        .card {
+            border: 0;
+            box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.5);
+        }
+
+        .card-header {
+            background-color: $white-text;
+            text-align: center;
+
+            h4 {
+                font-weight: 700;
+                color: $textColor;
+            }
+
+            sup {
+                font-size: 25px;
+                font-weight: 700;
+                color: #bbbbbb;
+                margin-top: -30px !important;
+            }
+
+            sub {
+                font-size: 20px;
+                font-weight: 700;
+                color: #bbbbbb;
+            }
+
+            strong {
+                font-size: 70px;
+                font-weight: 300;
+            }
+        }
+
+        .card-body {
+            padding: 0;
+
+            ul {
+
+                li {
+                    &:nth-child(odd) {
+                        background-color: $light-background;
+                    }
+
+                    padding: 14px;
+                }
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .card-footer {
+            background-color: $button1;
+            text-align: center;
+            display: block;
+            color: $white-text;
+            padding: 24px;
+
+            &:hover {
+                opacity: 0.9;
+                transition: .5s;
+            }
+        }
+
+        // Active Pricing box
+        .active {
+            border: 2px solid $pricing-active-border;
+
+            .card-footer {
+                background-color: $pricing-active-border;
+            }
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            strong {
+                font-size: 47px !important;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .card {
+                margin-bottom: 50px;
+            }
+        }
+
+
+        // Change card-deck collapse breakpoint
+        @media (min-width: 993px) {
+            .card-deck {
+                -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .card-deck {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .card-body {
+                overflow-x: scroll;
+
+                ul {
+                    // Change width when new contents are added
+                    width: 1000px;
+                    margin-bottom: 0;
+
+                    li {
+                        display: block;
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+}

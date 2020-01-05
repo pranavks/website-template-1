@@ -1,0 +1,98 @@
+#login-page {
+
+    background-color: $light-background;
+
+    #section1 {
+        .box {
+            max-width: 400px;
+            background-color: #fff;
+            margin: 50px auto;
+            padding: 30px;
+            box-shadow: 0px 0px 10px -2px grey;
+        }
+
+        .social-login {
+            button {
+                display: block;
+                width: 100%;
+                padding: 5px;
+                color: #fff;
+                border: 0;
+                border-radius: 2px;
+                font-size: 14px;
+                margin-bottom: 10px;
+                position: relative;
+
+                i {
+                    position: absolute;
+                    left: 20px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-size: 14px;
+                }
+            }
+
+            #facebook {
+                background-color: #3B5998;
+                border: 1px solid #3B5998;
+
+                &:hover {
+                    background-color: darken(#3B5998, 10%);
+                }
+            }
+
+            #google {
+                background-color: #DC4E41;
+                border: 1px solid #DC4E41;
+
+                &:hover {
+                    background-color: darken(#DC4E41, 10%);
+                }
+            }
+
+            #linkedin {
+                background-color: #0077B5;
+                border: 1px solid #0077B5;
+
+                &:hover {
+                    background-color: darken(#0077B5, 10%);
+                }
+            }
+        }
+
+        .or {
+            margin-top: -29.5px;
+
+            span {
+                background-color: #fff;
+                padding: 0px 8px;
+                color: grey;
+            }
+        }
+
+        form {
+            input {
+                border: 0;
+                border-bottom: 1px solid rgb(197, 197, 197);
+                border-radius: 0;
+            }
+
+            input:focus {
+                border-bottom: 2px solid $button2;
+            }
+
+            input[type="submit"] {
+                border-radius: 25px;
+                border-bottom: 0;
+                margin: auto;
+                margin-top: 30px;
+            }
+
+            #create-account {
+                display: block;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+    }
+}

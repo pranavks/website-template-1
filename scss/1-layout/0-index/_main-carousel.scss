@@ -1,0 +1,35 @@
+#home-page {
+
+    #section1 {
+        position: relative;
+
+        #carousel1 {
+            img {
+                height: 800px;
+                object-fit: cover;
+                filter: brightness(50%);
+                transition: .3s ease-in-out;
+            }
+
+            .carousel-caption {
+                bottom: 50%;
+                transform: translateY(50%);
+            }
+
+            h1 {
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        #section1 {
+            #carousel1 {
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

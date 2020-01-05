@@ -1,0 +1,53 @@
+#home-page {
+
+    #section11 {
+        background-image: url('../images/workplace.jpg');
+        @include bgimage;
+        background-attachment: fixed;
+        padding-right: 80px;
+
+        .wrapper {
+            height: 300px;
+            width: 300px;
+            background-color: $dark-background;
+            flex-direction: column;
+            padding: 20px;
+            text-align: center;
+        }
+
+        i {
+            color: $white-text;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: $white-text;
+            margin: 0 !important;
+        }
+
+        a {
+            margin-top: 20px;
+        }
+
+        .tele {
+            color: $button2;
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        .button-primary-coloured {
+            font-size: 14.4px;
+        }
+
+        @media (max-width: 992px) {
+            padding-right: 60px;
+        }
+
+        @media (max-width: 768px) {
+            padding-right: 0;
+            justify-content: center !important;
+        }
+    }
+}

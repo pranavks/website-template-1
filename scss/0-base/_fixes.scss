@@ -1,0 +1,60 @@
+// Contains fixes and overrides of default external sources
+
+// Fix Slick slider select items issue
+.slick-slider {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+// Fix slick slider missing arrow issue
+.slick-prev {
+    z-index: 1;
+    left: 40px;
+}
+
+.slick-next {
+    right: 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: $button1;
+}
+
+// Bootstrap override
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+// Bootstrap ugly outline remove
+textarea:focus,
+input[type="text"]:focus,
+textarea[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus,
+.form-control:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: none;
+}
+
+// AOS Fix
+.aos-fix {
+    overflow: hidden;
+}

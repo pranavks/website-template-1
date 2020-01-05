@@ -1,0 +1,125 @@
+#nav1 {
+    background: $header;
+    color: $white-text;
+    font-size: 13px;
+    z-index: 999;
+
+    a {
+        color: $white-text;
+    }
+
+    .social-top {
+        margin-left: 35px;
+
+        i {
+            color: $white-text;
+            margin-left: 10px;
+
+            &:hover {
+                color: $button2;
+                transition: .3s ease-in-out;
+            }
+        }
+    }
+
+    a {
+        color: $white-text;
+
+        &:hover {
+            color: $button2;
+            transition: .3s ease-in-out;
+        }
+    }
+}
+
+#nav2 {
+    // background-color: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    transition: .3s ease-in-out;
+    padding-top: 50px;
+
+    .navbar-brand img {
+        width: 150px;
+        transition: .3s ease-in-out;
+    }
+
+    .nav-link {
+        color: $white-text;
+        text-transform: uppercase;
+        font-weight: 600;
+        position: relative;
+
+        &::after {
+            content: "";
+            display: block;
+            background-color: $white-text;
+            height: 2px;
+            width: 0;
+            transition: .3s ease-in-out;
+        }
+
+        &:hover {
+            &::after {
+                width: 100%;
+                transition: .3s ease-in-out;
+            }
+        }
+    }
+
+    .active {
+        &::after {
+            content: "";
+            display: block;
+            background-color: $white-text;
+            height: 2px;
+            width: 100%;
+        }
+    }
+}
+
+// Style specific for inner pages
+.nav2-inner {
+    position: sticky !important;
+    padding: 0 !important;
+    background: var(--header-transparent);
+
+    .navbar-brand img {
+        width: 125px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    #nav2 {
+        // background: var(--header-transparent);
+
+        .nav-item {
+            text-align: center;
+        }
+
+        .nav-link {
+            &:hover {
+                &::after {
+                    // width: 6%;
+                    // margin: auto;
+                    display: none;
+                }
+            }
+        }
+
+        .active {
+            &::after {
+                width: 15%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #nav1 {
+        display: none;
+    }
+}

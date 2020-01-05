@@ -1,0 +1,63 @@
+.button-primary {
+    color: $white-text;
+    background: transparent;
+    border: 2px solid $white-text;
+    padding: 6px 16px;
+    transition: .3s ease-in-out;
+    font-weight: 600;
+
+    &:hover {
+        background: $tertiary;
+        border-color: $tertiary;
+        color: $white-text;
+        text-decoration: none;
+    }
+}
+
+.button-primary-dark {
+    color: $dark-text;
+    background: transparent;
+    border: 2px solid $dark-text;
+    padding: 6px 16px;
+    transition: .3s ease-in-out;
+    font-weight: 600;
+
+    &:hover {
+        background: $tertiary;
+        border-color: $tertiary;
+        color: $white-text;
+        text-decoration: none;
+    }
+}
+
+.button-primary-coloured {
+    color: $white-text;
+    background: $button2;
+    border: 2px solid $button2;
+    padding: 6px 16px;
+    transition: .3s ease-in-out;
+    font-weight: 600;
+
+    &:hover {
+        background: $tertiary;
+        border-color: $tertiary;
+        color: $white-text;
+        text-decoration: none;
+    }
+}
+
+.button-secondary {
+    border: 0;
+    background-color: $button2;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-family: $poppins;
+    font-size: 14px;
+    font-weight: 600;
+
+    &:hover {
+        background-color: darken($button2, 30%);
+        transition: .3s ease-in-out;
+    }
+}

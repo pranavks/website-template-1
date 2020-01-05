@@ -1,0 +1,48 @@
+// Section Break
+.section-break {
+    width: 120px;
+    height: 2px;
+    background-color: #e1e1e1;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+
+    em {
+        width: 60px;
+        height: 2px;
+        background-color: #662d91;
+        display: block;
+        margin: auto;
+    }
+}
+
+#section-break-left {
+    margin: initial;
+    margin-top: 30px;
+    margin-left: 2.5%;
+
+    @media (max-width: 992px) {
+        margin-left: 4%;
+    }
+
+    @media (max-width: 768px) {
+        margin-left: 0;
+    }
+}
+
+.section-break-mini {
+    width: 120px;
+    height: 2px;
+    background-color: #e1e1e1;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+
+    em {
+        width: 60px;
+        height: 2px;
+        background-color: #662d91;
+        display: block;
+        margin: auto;
+    }
+}

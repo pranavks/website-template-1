@@ -1,0 +1,52 @@
+#home-page {
+
+    #section2 {
+        background-color: $dark-background;
+        color: $grey-text;
+        padding: 30px 0 37px 0;
+
+        h4 {
+            font-size: 24px;
+            color: $tertiary;
+        }
+
+        p {
+            font-size: 14px;
+            color: $grey-text;
+        }
+
+        ul {
+            padding-inline-start: 0;
+        }
+
+        .aos-fix {
+            padding: 10px 0;
+        }
+
+        .wrapper {
+            text-align: center;
+
+            a {
+                font-size: 14px;
+                color: $grey-text;
+                border-color: $grey-text;
+
+                &:hover {
+                    color: $white-text;
+                    border-color: $tertiary;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        #section2 {
+            padding: 60px 0 68px 0;
+
+            .col-md-4:nth-child(1),
+            .col-md-4:nth-child(2) {
+                padding-bottom: 50px;
+            }
+        }
+    }
+}

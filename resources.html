@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Website</title>
+    <script
+      src="https://kit.fontawesome.com/4b4f9eab19.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,800|Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/slick/slick.css" />
+    <link rel="stylesheet" href="assets/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body id="resources-page">
+    <!-- Page preloader -->
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
+
+    <nav id="nav1" class="navbar">
+      <div class="container-fluid">
+        <div class="mr-auto">
+          Questions? &nbsp;<a href="tel:123-123-1234"
+            ><i class="fas fa-phone-alt"></i> 123-123-1234</a
+          >
+        </div>
+        <div class="ml-auto">
+          <a href="mailto:mail@example.com"
+            ><i class="fas fa-envelope"></i> mail@example.com</a
+          >
+          &nbsp;&nbsp; <i class="fa fa-clock-o"></i> Mon-Fri: 09:00 - 17:00
+          <span class="social-top">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <nav id="nav2" class="navbar navbar-expand-lg navbar-dark px-2 nav2-inner">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img id="logo" src="images/dummy-logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="navColor();"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#section4">Benefits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="programs.html">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="section5" class="custom-padding">
+      <div class="text-center mb-5">
+        <h2>Resources</h2>
+        <h6>Find Best Course For Yourself!</h6>
+        <span class="section-break"><em></em></span>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="navtab-content1-tab"
+                  data-toggle="pill"
+                  href="#navtab-content1"
+                  role="pill"
+                  aria-controls="navtab-content1"
+                  aria-selected="true"
+                  >Lorem Ipsum</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="navtab-content2-tab"
+                  data-toggle="pill"
+                  href="#navtab-content2"
+                  role="pill"
+                  aria-controls="navtab-content2"
+                  aria-selected="false"
+                  >Lorem Ipsum</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="navtab-content3-tab"
+                  data-toggle="pill"
+                  href="#navtab-content3"
+                  role="pill"
+                  aria-controls="navtab-content3"
+                  aria-selected="false"
+                  >Lorem Ipsum</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="navtab-content4-tab"
+                  data-toggle="pill"
+                  href="#navtab-content4"
+                  role="pill"
+                  aria-controls="contact"
+                  aria-selected="false"
+                  >Lorem Ipsum</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="navtab-content5-tab"
+                  data-toggle="pill"
+                  href="#navtab-content5"
+                  role="pill"
+                  aria-controls="contact"
+                  aria-selected="false"
+                  >Lorem Ipsum</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="navtab-content6-tab"
+                  data-toggle="pill"
+                  href="#navtab-content6"
+                  role="pill"
+                  aria-controls="contact"
+                  aria-selected="false"
+                  >Lorem Ipsum</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="navtab-content1"
+                role="tabpanel"
+                aria-labelledby="navtab-content1-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-5 bgimg bgimg1">
+                      <h2>
+                        Lorem Ipsum
+                      </h2>
+                      <div class="dark-overlay"></div>
+                    </div>
+                    <div class="col-md-7">
+                      <h3>Lorem ipsum dolor sit</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reiciendis officia adipisci quas fugiat. Animi, harum.
+                        Voluptatibus ex quae aliquid illo rerum dolore minus
+                        magnam, eius nostrum corporis numquam ducimus facilis
+                        quo cumque eveniet libero. Maiores placeat cupiditate,
+                        accusantium culpa dicta porro quo! Rerum culpa molestias
+                        quidem laudantium dolore quos officiis totam sapiente at
+                        assumenda non, neque quibusdam aliquid voluptatibus
+                        quisquam beatae. Consectetur quis ipsa officiis illo
+                        aspernatur corrupti magni, fugit soluta iste!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="navtab-content2"
+                role="tabpanel"
+                aria-labelledby="navtab-content2-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-5 bgimg bgimg2">
+                      <h2>
+                        Lorem Ipsum
+                      </h2>
+                      <div class="dark-overlay"></div>
+                    </div>
+                    <div class="col-md-7">
+                      <h3>Lorem ipsum dolor sit amet consectetur</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsa corporis eos accusantium, eaque reprehenderit odio
+                        beatae quos voluptatem debitis rem quo quibusdam libero
+                        quidem unde ducimus, quis necessitatibus tenetur
+                        corrupti minus natus aspernatur nobis velit! Nam esse
+                        beatae odit vel nostrum tempora laborum nisi accusantium
+                        quo laboriosam commodi, molestias aliquid architecto
+                        debitis doloremque minima ad? Est vero praesentium neque
+                        ea facere, repudiandae corrupti nulla illum laudantium
+                        libero velit non nostrum inventore, iure quibusdam nemo
+                        voluptas enim eum maiores fugit voluptate aliquam
+                        placeat veniam. Ullam commodi ipsam nobis consequuntur
+                        beatae rerum expedita numquam! Quo molestias cum,
+                        impedit officiis corrupti totam velit esse.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="navtab-content3"
+                role="tabpanel"
+                aria-labelledby="navtab-content3-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-5 bgimg bgimg3">
+                      <h2>
+                        Lorem Ipsum
+                      </h2>
+                      <div class="dark-overlay"></div>
+                    </div>
+                    <div class="col-md-7">
+                      <h3>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptate cupiditate nisi dolorem deserunt illo debitis
+                        quibusdam impedit, et aperiam necessitatibus iusto dolor
+                        tempora ipsa commodi nobis. Accusamus distinctio odio
+                        quod modi earum minima libero nihil perferendis cum
+                        aliquam! Inventore libero quae adipisci et ea.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="navtab-content4"
+                role="tabpanel"
+                aria-labelledby="navtab-content4-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-5 bgimg bgimg4">
+                      <h2>
+                        Lorem Ipsum
+                      </h2>
+                      <div class="dark-overlay"></div>
+                    </div>
+                    <div class="col-md-7">
+                      <h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Totam optio at illo repellat officiis distinctio
+                        laudantium ipsa quaerat, explicabo quisquam sequi porro
+                        qui? Minima sequi perspiciatis excepturi laudantium,
+                        esse ipsum ullam consectetur doloremque ut incidunt
+                        quas? Perspiciatis facere soluta harum vel. Tempore
+                        voluptates repellat aut! Explicabo aut nihil cum, illum
+                        nemo id aperiam obcaecati veritatis?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="navtab-content5"
+                role="tabpanel"
+                aria-labelledby="navtab-content5-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-5 bgimg bgimg5">
+                      <h2>
+                        Lorem Ipsum
+                      </h2>
+                      <div class="dark-overlay"></div>
+                    </div>
+                    <div class="col-md-7">
+                      <h3>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Odit, quas pariatur nihil, adipisci quae minus dolorem
+                        distinctio, sequi eius amet unde et magnam ex cupiditate
+                        neque quis facilis perspiciatis reiciendis a vitae sunt
+                        officiis iste cum ducimus! Harum tempore minima, quaerat
+                        quidem nobis, nesciunt assumenda deserunt reprehenderit
+                        quisquam libero maiores officiis, dignissimos cum
+                        laborum nostrum. Architecto impedit omnis amet tenetur
+                        maxime a quam, mollitia nostrum facere porro dicta minus
+                        eius dolorem culpa maiores! Possimus, laborum
+                        perspiciatis!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="navtab-content6"
+                role="tabpanel"
+                aria-labelledby="navtab-content6-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-5 bgimg bgimg6">
+                      <h2>
+                        Lorem Ipsum
+                      </h2>
+                      <div class="dark-overlay"></div>
+                    </div>
+                    <div class="col-md-7">
+                      <h3>Lorem ipsum dolor sit amet</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iure.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+      .
+     -->
+    <footer class="custom-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-12 col-md-6 col-sm-12">
+            <a href="#"
+              ><img id="logo-footer" src="images/dummy-logo.png" alt=""
+            /></a>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Consectetur, eum accusamus debitis temporibus in ratione ipsa
+              praesentium iusto tempore. Minima, culpa deleniti exercitationem
+              ut eveniet quisquam illum assumenda officiis veniam?
+            </p>
+          </div>
+          <div id="quick-links" class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <h5>Quick Links</h5>
+            <div class="wrapper d-flex">
+              <ul class="no-bullets">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Program</a></li>
+                <li><a href="Benefits.html">Benifits</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="">Upcoming Events</a></li>
+              </ul>
+              <ul class="no-bullets">
+                <li><a href="">Students</a></li>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+                <li>
+                  <a href="privacy-and-policy.html">Privacy And Policy</a>
+                </li>
+                <li><a href="refund.html">Refund Policy</a></li>
+                <li><a href="">Policy</a></li>
+                <li>
+                  <a href="Terms-and-conditions.html">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <h5>Institute Hours</h5>
+            <ul class="no-bullets">
+              <li>Monday: 09:00 - 17:00</li>
+              <li>Tuseday: 09:00 - 17:00</li>
+              <li>Wednesday: 09:00 - 17:00</li>
+              <li>Thursday: 09:00 - 17:00</li>
+              <li>Friday: 09:00 - 17:00</li>
+              <li>Saturday, Sunday: No Admission/Enquiry</li>
+            </ul>
+          </div>
+          <div id="contact-footer" class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <ul class="no-bullets">
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Address:</h6>
+                  <a href="#"
+                    >132 Jefferson Avenue, Suite 22, Redwood City, CA 94872,
+                    USA</a
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Phone:</h6>
+                  <a href="tel:(00) 123 456 789">(00) 123 456 789</a>
+                </div>
+              </li>
+              <li>
+                <div class="sub-wrapper1">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="sub-wrapper2">
+                  <h6>Email:</h6>
+                  <a href="mailto:name@gmail.com">name@gmail.com</a>
+                </div>
+              </li>
+              <li class="social-footer">
+                <h6>FOLLOW US</h6>
+                <span class="social-bottom">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Page preloader -->
+    <script>
+      $(window).on("load", function() {
+        $(".spinner").fadeOut();
+      });
+    </script>
+  </body>
+</html>
