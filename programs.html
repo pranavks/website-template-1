@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="css/app.css" />
   </head>
   <body id="programs-page">
+    <!-- Page preloader -->
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
 
     <nav id="nav1" class="navbar">
       <div class="container-fluid">
@@ -1202,7 +1207,7 @@
     </footer>
 
     <script
-      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
@@ -1216,5 +1221,12 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Page preloader -->
+    <script>
+        $(window).on('load', function () {
+          $('.spinner').fadeOut();
+        });
+      </script>
   </body>
 </html>
